@@ -1,3 +1,5 @@
-### What Happen!
+# DEFCONF4
+Copyright ☢ 1974-2011 ∂3ƒ©0Ӥƒ4. All rights asserted.
 
-A fake test project, whereby our hero evaluates various aspects of githubbery.
+### WE ARE CURRENTLY @ DEFCONF4
+More information to be added as the situation develops.
