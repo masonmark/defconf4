@@ -1,3 +1,3 @@
 ### README
 
-Or, don't.
+Don't read this.
