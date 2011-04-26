@@ -1,3 +1,3 @@
-### README
+### What Happen!
 
-Don't read this.
+A fake test project, whereby our hero evaluates various aspects of githubbery.
