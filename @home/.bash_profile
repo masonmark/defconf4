@@ -27,4 +27,9 @@ echo " _________________________________________________________________"
 echo ""
 echo ""
     # because naked lady ascii welcome art would be tacky!
-    
+
+export NARWHAL_ENGINE=jsc
+export CAPP_BUILD="/Build/cappuccino"
+
+alias st='open $1 -a sourcetree'
+    # my git gui client du jour
