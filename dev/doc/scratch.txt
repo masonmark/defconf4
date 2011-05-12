@@ -1,3 +1,7 @@
+2011-05-12
+  - DEFCONF4 is [REDACTED] with [REDACTED] and a quirky and family-friendly nuclear holocaust theme.
+  - top secret: it's actually DEFenestrate the obsolescent CONFig files 4 me, but if we told you that then we'd have to throw you out of a window
+
 2011-04-27
   - WHEREAS i want all my gem dependencies local to the app, and never to involve any external gems or other fuckery
   - WHEREAS i dont know how to do that really but i think it can be done
@@ -8,3 +12,4 @@
     - I ran 'echo 'vendor/ruby' >> .gitignore'
     - I ran 'bundle package'
     - I hoped that was all I needed, but if so why in the FUCK is that so hard to learn from bundler's web site? Seems unlikely.
+ 4 me

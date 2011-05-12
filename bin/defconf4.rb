@@ -5,7 +5,7 @@ require 'pathname'
 
 path_to_me       = Pathname.new(File.expand_path(__FILE__))
 path_to_defconf4 = path_to_me.parent.parent
-path_to_src      = path_to_defconf4 + "src"
+path_to_src      = path_to_defconf4 + "dev"
 
 Dir.chdir path_to_src 
 

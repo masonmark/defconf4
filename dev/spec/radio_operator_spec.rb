@@ -33,6 +33,12 @@ describe RadioOperator do
     
     @ro.receive q
   end
+  
+  it "can request orders from the commander" do
+    pending  
+    @ro.radio = double('radio')
+
+  end
 
 end
 
