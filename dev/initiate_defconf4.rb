@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 require 'slop'
+require_relative 'pentagon.rb'
 
 opts = Slop.parse do
   option :v, :verbose
@@ -19,11 +20,8 @@ else
     puts '- Verbose mode is enabled.'
     puts "-- Executed with options:\n#{opts}"
   end
-  puts '-- Determining correct course of action...'
-  sleep 1
-  puts '-- Confused. Giving up.'
-  sleep 1
-  puts '-- Launching nukes.'
-  sleep 1
-  puts '-- BRZzzt$$#%^@%^&**)))))) )  )   )     )        )'
+  
+  p = Pentagon.new
+  p.initiate_defconf4
+  
 end
