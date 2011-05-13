@@ -3,8 +3,6 @@
 
 require 'slop'
 
-puts '☢ DEFCONF4 INITIATED ☢'
-
 opts = Slop.parse do
   option :v, :verbose
   option :h, :help
@@ -13,11 +11,13 @@ end
 # opts = opts.to_hash
 
 if opts.help? # or, opts[:help]
+  puts "DEFCONF4 usage:"
   puts opts.help
 else
+  puts '☢ DEFCONF4 INITIATED ☢'
   if opts.verbose?
     puts '- Verbose mode is enabled.'
-    puts '-- Executed with options #{opts}'
+    puts "-- Executed with options:\n#{opts}"
   end
   puts '-- Determining correct course of action...'
   sleep 1
