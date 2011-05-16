@@ -18,7 +18,7 @@ DEFCONF4 MISSION CONTROL - MAIN MENU
 class MissionControlSystem
 
   attr_accessor :terminal 
-    # the system can be radio-controller in case the Commander is not physically present
+    # the system can be radio-controlled in case the Commander is not physically present
 
   def initialize
     self.terminal = Terminal.new
@@ -36,8 +36,7 @@ class MissionControlSystem
 
   def process_command(cmd)
     puts "COMMAND INPUT RECEIVED: #{cmd}"
-    puts "SYSTEM ERROR: invalid commandfuck you
-    : #{cmd}"
+    puts "SYSTEM ERROR: invalid command: #{cmd}"
     abort_retry_fail
   end
 
