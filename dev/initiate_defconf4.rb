@@ -23,5 +23,4 @@ else
   
   p = Pentagon.new
   p.initiate_defconf4
-  
 end

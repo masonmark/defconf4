@@ -29,5 +29,11 @@ describe Terminal do
     @t.last_input.should == "hoo ride"
   end
 
+  it "can have its input automated" do
+    @t.automated_inputs = ['foo', 'bar', 'baz', 'slut']
+    ['foo', 'bar', 'baz', 'slut'].each {|e| @t.read.should == e}
+  end
+
+
 end
 

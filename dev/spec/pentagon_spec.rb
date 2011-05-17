@@ -18,6 +18,9 @@ describe Pentagon do
   end
   
   it "can initiate DEFCONF4" do
+    term = @p.mission_control_system.terminal
+    term.automated_inputs = ['x','y','z']
+
     @p.initiate_defconf4
   end
 

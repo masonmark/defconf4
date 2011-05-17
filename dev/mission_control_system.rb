@@ -1,19 +1,7 @@
 # encoding: utf-8
 
 require_relative "terminal.rb"
-
-MAIN_MENU = "
-DEFCONF4 MISSION CONTROL - MAIN MENU
-
-1.) Death to America
-2.) Death to Everybody
-
-9.) Help
-0.) Do nothing and exit.
-"
-
-
-
+require_relative "menu.rb"
 
 class MissionControlSystem
 
@@ -24,33 +12,30 @@ class MissionControlSystem
     self.terminal = Terminal.new
   end
 
-  def boot
-    present_options
+  def run_boot_menu
+    bm = Menu.new
+    bm.name    = 'DEFCONF4 BOOT MENU'
+    bm.lines   = ['DEFCONF4 BOOT MENU', "", "A. Death to [A]merica", "E. Death to [E]verybody", "", "H. [H]elp", "", "X. E[x]it"];
+    bm.choices = [:a, :e, :h, :x]
+    bm.run_with_terminal(self.terminal) do |chosen|
+      process_command chosen
+    end
   end
 
-  def present_options
-    terminal.print MAIN_MENU
-    cmd = terminal.read
-    process_command cmd
+  def boot
+    run_boot_menu
   end
 
   def process_command(cmd)
-    puts "COMMAND INPUT RECEIVED: #{cmd}"
-    puts "SYSTEM ERROR: invalid command: #{cmd}"
-    abort_retry_fail
+    self.terminal.print "The user chose #{cmd}"
   end
 
-  def abort_retry_fail
-    puts "[A]bort, [R]etry, [F]ail?"
-    process_command STDIN.gets
+  def launch_nukes
+    self.terminal.print '-- Bypassing failsafe mechanisms...'
+    sleep 0.5
+    self.terminal.print '-- Launching nukes.'
+    sleep 0.5
+    self.terminal.print '-- BRZzzt$$#%^@%^&**)))))) )  )   )     )'
   end
-
-  # puts '-- Determining correct course of action...'
-  # sleep 1
-  # puts '-- Confused. Giving up.'
-  # sleep 1
-  # puts '-- Launching nukes.'
-  # sleep 1
-  # puts '-- BRZzzt$$#%^@%^&**)))))) )  )   )     )        )'
 
 end

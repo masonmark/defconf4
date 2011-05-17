@@ -11,7 +11,7 @@ class Pentagon
   end
   
   def initiate_defconf4
-    mission_control_system.boot
+    self.mission_control_system.boot
   end
 
 end

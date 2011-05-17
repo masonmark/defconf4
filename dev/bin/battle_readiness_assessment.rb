@@ -11,6 +11,7 @@ Dir.chdir path_to_src
 
 puts ""
 puts "☆★☆ DEFCONF4 BATTLE READINESS REPORT: ☆★☆"
+puts ""
 
 cmd = "PATH=#{ENV['PATH']}:$PATH ; bundle exec rspec --color --format documentation"
 
