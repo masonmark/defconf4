@@ -21,6 +21,7 @@ export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/git/bin:$PATH
 export PATH=/usr/local/mysql/bin:$PATH
 export PATH=/usr/local/narwhal/bin:$PATH
+export PATH=$HOME/local/node/bin:$PATH
 export PATH=~/bin:$PATH
 
 export NARWHAL_ENGINE=jsc 
