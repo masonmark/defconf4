@@ -1,5 +1,7 @@
 # encoding: utf-8
 
+# it is sometime in 2011
+
 class Menu
 
   attr_accessor :terminal
@@ -29,7 +31,7 @@ class Menu
     term ||= self.terminal
     if grok? the_input
       self.value = value_from_symbol the_input
-      term.print "User chose #{the_input}"
+      return the_input
     else
       term.print "Error: unknown command '#{the_input}'; please check the menu and try again.\n"
       self.run_with_terminal term
