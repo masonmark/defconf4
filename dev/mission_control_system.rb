@@ -31,14 +31,17 @@ class MissionControlSystem
     bm.lines   = [  
       'DEFCONF4 BOOT MENU', 
       "", 
-      "A. Death to [A]merica", 
-      "E. Death to [E]verybody", 
+      "R. [R]econnaisance", 
+      "E. [E]xfiltrate", 
       "", 
-      "H. [H]elp", 
+      "N. [N]uke", 
+      "", 
+      "A. [A]rmageddon", 
       "", 
       "X. E[x]it"
     ];
-    bm.choices = [:a, :e, :h, :x, ]
+    #  bm.choices = [:r, :e, :n, :a, :x, ]
+    bm.choices = {r: :recon, e: :exfiltrate, n: :nuke, a: :armageddon, x: :exit}
     bm
   end
 

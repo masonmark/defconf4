@@ -31,7 +31,7 @@ class Menu
     term ||= self.terminal
     if grok? the_input
       self.value = value_from_symbol the_input
-      return the_input
+      return value
     else
       term.print "Error: unknown command '#{the_input}'; please check the menu and try again.\n"
       self.run_with_terminal term
@@ -52,7 +52,7 @@ class Menu
       end
     else
       if self.choices.keys.include? sym
-        return self.choices[sym]
+        return choices[sym]
       else
         return nil
       end
