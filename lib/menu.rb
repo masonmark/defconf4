@@ -9,12 +9,14 @@ class Menu
   attr_accessor :name,    # name of menu
                 :lines,   # array of strings
                 :choices, # hash like {x: 'exit', p: 'print'} or array of symbols like [:x, :p]
-                :value
+                :value,
+                :error_count
 
 
   def initialize(hash=nil)
     self.lines   = []
     self.choices = []
+    self.error_count  = 0
   end
   
 
@@ -39,6 +41,15 @@ class Menu
       self.value = value_from_symbol the_input
       return value
     else
+      
+      if @error_count > 13
+        # only a hacker could possibly make more than thirteen errors, as we all know
+        term.activate_intrusion_countermeasures
+      else
+        @error_count ||= 0
+        @error_count += 1
+      end
+        
       term.print "Error: unknown command '#{the_input}'; please check the menu and try again.\n"
       self.run_with_terminal term
     end

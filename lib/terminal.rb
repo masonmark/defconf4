@@ -30,8 +30,22 @@ class Terminal
     self.last_input = input || STDIN.gets
   end
 
+
   def crash(details=nil)
     print "💣  Unfortunately, Terminal has stopped. #{details}"
+  end
+  
+  
+  def activate_intrusion_countermeasures(details='')
+    print "💀 "
+    print "💀 INTRUSTION COUNTERMEASURES ELECTRONICS ACTIVATED."
+    print "💀"
+    print "💀 你好, 61398部队。"
+    print "💀 Your hacking attempts have been detected."
+    print "💀 Initiating lethal countermeasures."
+    print "🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥"
+    exit 0xDEAD
+    
   end
   
 end
