@@ -38,7 +38,7 @@ class Terminal
   
   def activate_intrusion_countermeasures(details='')
     print "💀 "
-    print "💀 INTRUSTION COUNTERMEASURES ELECTRONICS ACTIVATED."
+    print "💀 INTRUSION COUNTERMEASURES ELECTRONICS ACTIVATED."
     print "💀"
     print "💀 你好, 61398部队。"
     print "💀 Your hacking attempts have been detected."
