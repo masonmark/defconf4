@@ -1,6 +1,0 @@
-set wrap
-color railscasts+
-set runtimepath+=~/Code/vim-objj
-au BufNewFile,BufRead *.j,Jakefile setf objj
-
-
