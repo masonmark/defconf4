@@ -1,0 +1,3 @@
+[submodule "DEFCONF4/Dependencies/Mason.swift"]
+	path = DEFCONF4/Dependencies/Mason.swift
+	url = git@github.com:masonmark/Mason.swift.git

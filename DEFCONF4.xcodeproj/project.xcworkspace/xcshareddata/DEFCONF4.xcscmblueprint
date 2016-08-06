@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9314549DF9C5D4C26EFE4A2A9E481820DBF45F4D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9FE06A1C2752254E66FFB11DB106F8DF1513E854" : 9223372036854775807,
+    "9314549DF9C5D4C26EFE4A2A9E481820DBF45F4D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EB24F659-07C8-4CFE-B535-A6742FEC4582",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9FE06A1C2752254E66FFB11DB106F8DF1513E854" : "defconf4\/DEFCONF4\/Dependencies\/Mason.swift\/",
+    "9314549DF9C5D4C26EFE4A2A9E481820DBF45F4D" : "defconf4\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DEFCONF4",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DEFCONF4.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:masonmark\/defconf4.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9314549DF9C5D4C26EFE4A2A9E481820DBF45F4D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:masonmark\/Mason.swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9FE06A1C2752254E66FFB11DB106F8DF1513E854"
+    }
+  ]
+}

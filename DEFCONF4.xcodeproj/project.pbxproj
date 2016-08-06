@@ -11,6 +11,14 @@
 		93A38DDC1D55BFE400FF49B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A38DDB1D55BFE400FF49B5 /* Assets.xcassets */; };
 		93A38DDF1D55BFE400FF49B5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93A38DDD1D55BFE400FF49B5 /* MainMenu.xib */; };
 		93A38DEA1D55BFE500FF49B5 /* DEFCONF4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A38DE91D55BFE500FF49B5 /* DEFCONF4Tests.swift */; };
+		93D1E6061D55D7AB007B2A1C /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1E6041D55D775007B2A1C /* KeychainTests.swift */; };
+		93D1E6071D55D7AB007B2A1C /* TaskWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1E6051D55D775007B2A1C /* TaskWrapperTests.swift */; };
+		93D1E6081D55D7AE007B2A1C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1E6001D55D775007B2A1C /* Keychain.swift */; };
+		93D1E6091D55D7AE007B2A1C /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1E6011D55D775007B2A1C /* Mason.swift */; };
+		93D1E60A1D55D7AE007B2A1C /* TaskWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1E6021D55D775007B2A1C /* TaskWrapper.swift */; };
+		93D1E60B1D55D7AE007B2A1C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1E6001D55D775007B2A1C /* Keychain.swift */; };
+		93D1E60C1D55D7AE007B2A1C /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1E6011D55D775007B2A1C /* Mason.swift */; };
+		93D1E60D1D55D7AE007B2A1C /* TaskWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1E6021D55D775007B2A1C /* TaskWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,13 @@
 		93A38DE51D55BFE500FF49B5 /* DEFCONF4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DEFCONF4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A38DE91D55BFE500FF49B5 /* DEFCONF4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEFCONF4Tests.swift; sourceTree = "<group>"; };
 		93A38DEB1D55BFE500FF49B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D1E5FD1D55D775007B2A1C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		93D1E5FE1D55D775007B2A1C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		93D1E6001D55D775007B2A1C /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		93D1E6011D55D775007B2A1C /* Mason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mason.swift; sourceTree = "<group>"; };
+		93D1E6021D55D775007B2A1C /* TaskWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskWrapper.swift; sourceTree = "<group>"; };
+		93D1E6041D55D775007B2A1C /* KeychainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTests.swift; sourceTree = "<group>"; };
+		93D1E6051D55D775007B2A1C /* TaskWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskWrapperTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +88,7 @@
 		93A38DD81D55BFE400FF49B5 /* DEFCONF4 */ = {
 			isa = PBXGroup;
 			children = (
+				93D1E5FB1D55D775007B2A1C /* Dependencies */,
 				93A38DD91D55BFE400FF49B5 /* AppDelegate.swift */,
 				93A38DDB1D55BFE400FF49B5 /* Assets.xcassets */,
 				93A38DDD1D55BFE400FF49B5 /* MainMenu.xib */,
@@ -88,6 +104,44 @@
 				93A38DEB1D55BFE500FF49B5 /* Info.plist */,
 			);
 			path = DEFCONF4Tests;
+			sourceTree = "<group>";
+		};
+		93D1E5FB1D55D775007B2A1C /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				93D1E5FC1D55D775007B2A1C /* Mason.swift */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		93D1E5FC1D55D775007B2A1C /* Mason.swift */ = {
+			isa = PBXGroup;
+			children = (
+				93D1E5FD1D55D775007B2A1C /* .gitignore */,
+				93D1E5FE1D55D775007B2A1C /* Package.swift */,
+				93D1E5FF1D55D775007B2A1C /* Sources */,
+				93D1E6031D55D775007B2A1C /* Tests */,
+			);
+			path = Mason.swift;
+			sourceTree = "<group>";
+		};
+		93D1E5FF1D55D775007B2A1C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				93D1E6001D55D775007B2A1C /* Keychain.swift */,
+				93D1E6011D55D775007B2A1C /* Mason.swift */,
+				93D1E6021D55D775007B2A1C /* TaskWrapper.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		93D1E6031D55D775007B2A1C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				93D1E6041D55D775007B2A1C /* KeychainTests.swift */,
+				93D1E6051D55D775007B2A1C /* TaskWrapperTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +248,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D1E60A1D55D7AE007B2A1C /* TaskWrapper.swift in Sources */,
+				93D1E6091D55D7AE007B2A1C /* Mason.swift in Sources */,
 				93A38DDA1D55BFE400FF49B5 /* AppDelegate.swift in Sources */,
+				93D1E6081D55D7AE007B2A1C /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +259,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D1E60C1D55D7AE007B2A1C /* Mason.swift in Sources */,
+				93D1E6071D55D7AB007B2A1C /* TaskWrapperTests.swift in Sources */,
+				93D1E60B1D55D7AE007B2A1C /* Keychain.swift in Sources */,
 				93A38DEA1D55BFE500FF49B5 /* DEFCONF4Tests.swift in Sources */,
+				93D1E60D1D55D7AE007B2A1C /* TaskWrapper.swift in Sources */,
+				93D1E6061D55D7AB007B2A1C /* KeychainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +457,7 @@
 				93A38DF01D55BFE500FF49B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93A38DF11D55BFE500FF49B5 /* Build configuration list for PBXNativeTarget "DEFCONF4Tests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +466,7 @@
 				93A38DF31D55BFE500FF49B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
