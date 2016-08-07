@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "93A38DD51D55BFE400FF49B5"
+               BlueprintIdentifier = "93D1E6161D56BCEF007B2A1C"
                BuildableName = "DEFCONF4.app"
                BlueprintName = "DEFCONF4"
                ReferencedContainer = "container:DEFCONF4.xcodeproj">
@@ -32,9 +32,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "93A38DE41D55BFE500FF49B5"
+               BlueprintIdentifier = "93D1E62A1D56BCEF007B2A1C"
                BuildableName = "DEFCONF4Tests.xctest"
                BlueprintName = "DEFCONF4Tests"
+               ReferencedContainer = "container:DEFCONF4.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "93D1E6351D56BCEF007B2A1C"
+               BuildableName = "DEFCONF4UITests.xctest"
+               BlueprintName = "DEFCONF4UITests"
                ReferencedContainer = "container:DEFCONF4.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "93A38DD51D55BFE400FF49B5"
+            BlueprintIdentifier = "93D1E6161D56BCEF007B2A1C"
             BuildableName = "DEFCONF4.app"
             BlueprintName = "DEFCONF4"
             ReferencedContainer = "container:DEFCONF4.xcodeproj">
@@ -65,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "93A38DD51D55BFE400FF49B5"
+            BlueprintIdentifier = "93D1E6161D56BCEF007B2A1C"
             BuildableName = "DEFCONF4.app"
             BlueprintName = "DEFCONF4"
             ReferencedContainer = "container:DEFCONF4.xcodeproj">
@@ -84,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "93A38DD51D55BFE400FF49B5"
+            BlueprintIdentifier = "93D1E6161D56BCEF007B2A1C"
             BuildableName = "DEFCONF4.app"
             BlueprintName = "DEFCONF4"
             ReferencedContainer = "container:DEFCONF4.xcodeproj">
