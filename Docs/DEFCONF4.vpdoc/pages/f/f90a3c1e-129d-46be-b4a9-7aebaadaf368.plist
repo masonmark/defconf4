@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aliases</key>
+	<array/>
+	<key>attributes</key>
+	<dict/>
+	<key>categories</key>
+	<array/>
+	<key>createdDate</key>
+	<date>2016-08-07T02:01:23Z</date>
+	<key>displayName</key>
+	<string>Will Shipley's interesting presentation from 2013 about git as a document file format.</string>
+	<key>encrypted</key>
+	<string>No</string>
+	<key>key</key>
+	<string>will shipley's interesting presentation from 2013 about git as a document file format.</string>
+	<key>metaValues</key>
+	<dict/>
+	<key>modifiedDate</key>
+	<date>2016-08-07T02:01:23Z</date>
+	<key>shouldHighlightLinks</key>
+	<string>Yes</string>
+	<key>skipOnExport</key>
+	<string>No</string>
+	<key>uti</key>
+	<string>com.fm.url</string>
+	<key>uuid</key>
+	<string>f90a3c1e-129d-46be-b4a9-7aebaadaf368</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

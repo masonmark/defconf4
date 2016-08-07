@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aliases</key>
+	<array/>
+	<key>attributes</key>
+	<dict>
+		<key>documentBackgroundColor</key>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWE
+		AWMDhAJmZgEBhg==
+		</data>
+		<key>lastEditingComputerName</key>
+		<string>Mac Pro No. 5</string>
+		<key>lastEditingUserName</key>
+		<string>mason</string>
+	</dict>
+	<key>categories</key>
+	<array/>
+	<key>createdDate</key>
+	<date>2016-08-07T01:34:46Z</date>
+	<key>dataHash</key>
+	<string>2e00ea49f9777adce389262c8aaed141a8611029</string>
+	<key>displayName</key>
+	<string>dotfiles</string>
+	<key>encrypted</key>
+	<string>No</string>
+	<key>key</key>
+	<string>dotfiles</string>
+	<key>metaValues</key>
+	<dict/>
+	<key>modifiedDate</key>
+	<date>2016-08-07T01:34:57Z</date>
+	<key>shouldHighlightLinks</key>
+	<string>Yes</string>
+	<key>skipOnExport</key>
+	<string>No</string>
+	<key>uti</key>
+	<string>com.apple.rtfd</string>
+	<key>uuid</key>
+	<string>06978c11-90ec-40dc-81e3-5e9e4d0fa843</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
