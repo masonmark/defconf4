@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930D86611D56F9AE00C996AE /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D865B1D56F9A200C996AE /* Keychain.swift */; };
+		930D86621D56F9AE00C996AE /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D865C1D56F9A200C996AE /* Mason.swift */; };
+		930D86631D56F9AE00C996AE /* TaskWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D865D1D56F9A200C996AE /* TaskWrapper.swift */; };
+		930D86641D56F9AF00C996AE /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D865B1D56F9A200C996AE /* Keychain.swift */; };
+		930D86651D56F9AF00C996AE /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D865C1D56F9A200C996AE /* Mason.swift */; };
+		930D86661D56F9AF00C996AE /* TaskWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D865D1D56F9A200C996AE /* TaskWrapper.swift */; };
+		930D86671D56F9AF00C996AE /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D865B1D56F9A200C996AE /* Keychain.swift */; };
+		930D86681D56F9AF00C996AE /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D865C1D56F9A200C996AE /* Mason.swift */; };
+		930D86691D56F9AF00C996AE /* TaskWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D865D1D56F9A200C996AE /* TaskWrapper.swift */; };
+		930D866A1D56F9B200C996AE /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D865F1D56F9A200C996AE /* KeychainTests.swift */; };
+		930D866B1D56F9B200C996AE /* TaskWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D86601D56F9A200C996AE /* TaskWrapperTests.swift */; };
+		93A0F14C1D8CDD8B008A43FC /* ObserverRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F14A1D8CDD8B008A43FC /* ObserverRegistry.swift */; };
+		93A0F14D1D8CDD8B008A43FC /* TextReplacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F14B1D8CDD8B008A43FC /* TextReplacer.swift */; };
+		93A0F1541D8CDD97008A43FC /* Bug3293160Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F14E1D8CDD97008A43FC /* Bug3293160Tests.swift */; };
+		93A0F1551D8CDD97008A43FC /* MasonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F14F1D8CDD97008A43FC /* MasonTests.swift */; };
+		93A0F1561D8CDD97008A43FC /* ObserverRegistryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F1501D8CDD97008A43FC /* ObserverRegistryTests.swift */; };
+		93A0F1571D8CDD97008A43FC /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F1511D8CDD97008A43FC /* TestCase.swift */; };
+		93A0F1581D8CDD97008A43FC /* TestCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F1521D8CDD97008A43FC /* TestCaseTests.swift */; };
+		93A0F1591D8CDD97008A43FC /* TextReplacerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F1531D8CDD97008A43FC /* TextReplacerTests.swift */; };
+		93A0F15A1D8CDDA0008A43FC /* ObserverRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F14A1D8CDD8B008A43FC /* ObserverRegistry.swift */; };
+		93A0F15B1D8CDDA0008A43FC /* TextReplacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F14B1D8CDD8B008A43FC /* TextReplacer.swift */; };
+		93A0F15C1D8CDDA1008A43FC /* ObserverRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F14A1D8CDD8B008A43FC /* ObserverRegistry.swift */; };
+		93A0F15D1D8CDDA1008A43FC /* TextReplacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F14B1D8CDD8B008A43FC /* TextReplacer.swift */; };
+		93A0F15F1D8CE0C2008A43FC /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F15E1D8CE0C2008A43FC /* TreeNode.swift */; };
+		93A0F1611D8CE0DC008A43FC /* TreeNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F1601D8CE0DC008A43FC /* TreeNodeTests.swift */; };
+		93A86C671D572F5A00512B43 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A86C661D572F5A00512B43 /* TreeNode.swift */; };
+		93A86C681D572F5A00512B43 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A86C661D572F5A00512B43 /* TreeNode.swift */; };
+		93A86C691D572F5A00512B43 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A86C661D572F5A00512B43 /* TreeNode.swift */; };
+		93A86C6E1D5755AD00512B43 /* TreeNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A86C6A1D57559E00512B43 /* TreeNodeTests.swift */; };
+		93A86C741D59F82200512B43 /* TargetListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93A86C721D59F82200512B43 /* TargetListView.xib */; };
+		93A86C761D59F84500512B43 /* TargetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A86C751D59F84500512B43 /* TargetListViewController.swift */; };
+		93A86C771D59F84500512B43 /* TargetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A86C751D59F84500512B43 /* TargetListViewController.swift */; };
+		93A86C781D59F84500512B43 /* TargetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A86C751D59F84500512B43 /* TargetListViewController.swift */; };
+		93A86C7A1D5A0FC200512B43 /* ColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A86C791D5A0FC200512B43 /* ColoredView.swift */; };
+		93A86C7B1D5A0FC200512B43 /* ColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A86C791D5A0FC200512B43 /* ColoredView.swift */; };
+		93A86C7C1D5A0FC200512B43 /* ColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A86C791D5A0FC200512B43 /* ColoredView.swift */; };
 		93D1E61B1D56BCEF007B2A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1E61A1D56BCEF007B2A1C /* AppDelegate.swift */; };
 		93D1E61D1D56BCEF007B2A1C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1E61C1D56BCEF007B2A1C /* Document.swift */; };
 		93D1E6201D56BCEF007B2A1C /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93D1E61E1D56BCEF007B2A1C /* Document.xib */; };
@@ -34,6 +70,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		930D86581D56F9A200C996AE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		930D86591D56F9A200C996AE /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		930D865B1D56F9A200C996AE /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		930D865C1D56F9A200C996AE /* Mason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mason.swift; sourceTree = "<group>"; };
+		930D865D1D56F9A200C996AE /* TaskWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskWrapper.swift; sourceTree = "<group>"; };
+		930D865F1D56F9A200C996AE /* KeychainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTests.swift; sourceTree = "<group>"; };
+		930D86601D56F9A200C996AE /* TaskWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskWrapperTests.swift; sourceTree = "<group>"; };
+		93A0F14A1D8CDD8B008A43FC /* ObserverRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObserverRegistry.swift; path = ../../../../../Mason.swift/Sources/ObserverRegistry.swift; sourceTree = "<group>"; };
+		93A0F14B1D8CDD8B008A43FC /* TextReplacer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextReplacer.swift; path = ../../../../../Mason.swift/Sources/TextReplacer.swift; sourceTree = "<group>"; };
+		93A0F14E1D8CDD97008A43FC /* Bug3293160Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bug3293160Tests.swift; path = ../../../../../Mason.swift/Tests/Bug3293160Tests.swift; sourceTree = "<group>"; };
+		93A0F14F1D8CDD97008A43FC /* MasonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasonTests.swift; path = ../../../../../Mason.swift/Tests/MasonTests.swift; sourceTree = "<group>"; };
+		93A0F1501D8CDD97008A43FC /* ObserverRegistryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObserverRegistryTests.swift; path = ../../../../../Mason.swift/Tests/ObserverRegistryTests.swift; sourceTree = "<group>"; };
+		93A0F1511D8CDD97008A43FC /* TestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCase.swift; path = ../../../../../Mason.swift/Tests/TestCase.swift; sourceTree = "<group>"; };
+		93A0F1521D8CDD97008A43FC /* TestCaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCaseTests.swift; path = ../../../../../Mason.swift/Tests/TestCaseTests.swift; sourceTree = "<group>"; };
+		93A0F1531D8CDD97008A43FC /* TextReplacerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextReplacerTests.swift; path = ../../../../../Mason.swift/Tests/TextReplacerTests.swift; sourceTree = "<group>"; };
+		93A0F15E1D8CE0C2008A43FC /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		93A0F1601D8CE0DC008A43FC /* TreeNodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNodeTests.swift; sourceTree = "<group>"; };
+		93A86C661D572F5A00512B43 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeNode.swift; path = ../../../../../Mason.swift/Sources/TreeNode.swift; sourceTree = "<group>"; };
+		93A86C6A1D57559E00512B43 /* TreeNodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeNodeTests.swift; path = ../../../../../Mason.swift/Tests/TreeNodeTests.swift; sourceTree = "<group>"; };
+		93A86C731D59F82200512B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TargetListView.xib; sourceTree = "<group>"; };
+		93A86C751D59F84500512B43 /* TargetListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetListViewController.swift; sourceTree = "<group>"; };
+		93A86C791D5A0FC200512B43 /* ColoredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColoredView.swift; path = ../../../../../Mason.swift/Sources/ColoredView.swift; sourceTree = "<group>"; };
 		93D1E6171D56BCEF007B2A1C /* DEFCONF4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DEFCONF4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D1E61A1D56BCEF007B2A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93D1E61C1D56BCEF007B2A1C /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
@@ -74,9 +132,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		930D86561D56F9A200C996AE /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				930D86571D56F9A200C996AE /* Mason.swift */,
+			);
+			name = Dependencies;
+			path = DEFCONF4/Dependencies;
+			sourceTree = "<group>";
+		};
+		930D86571D56F9A200C996AE /* Mason.swift */ = {
+			isa = PBXGroup;
+			children = (
+				930D86581D56F9A200C996AE /* .gitignore */,
+				930D86591D56F9A200C996AE /* Package.swift */,
+				930D865A1D56F9A200C996AE /* Sources */,
+				930D865E1D56F9A200C996AE /* Tests */,
+			);
+			path = Mason.swift;
+			sourceTree = "<group>";
+		};
+		930D865A1D56F9A200C996AE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				93A0F14A1D8CDD8B008A43FC /* ObserverRegistry.swift */,
+				93A0F14B1D8CDD8B008A43FC /* TextReplacer.swift */,
+				930D865B1D56F9A200C996AE /* Keychain.swift */,
+				930D865C1D56F9A200C996AE /* Mason.swift */,
+				930D865D1D56F9A200C996AE /* TaskWrapper.swift */,
+				93A86C661D572F5A00512B43 /* TreeNode.swift */,
+				93A86C791D5A0FC200512B43 /* ColoredView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		930D865E1D56F9A200C996AE /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				93A0F14E1D8CDD97008A43FC /* Bug3293160Tests.swift */,
+				930D865F1D56F9A200C996AE /* KeychainTests.swift */,
+				93A0F14F1D8CDD97008A43FC /* MasonTests.swift */,
+				93A0F1501D8CDD97008A43FC /* ObserverRegistryTests.swift */,
+				930D86601D56F9A200C996AE /* TaskWrapperTests.swift */,
+				93A0F1511D8CDD97008A43FC /* TestCase.swift */,
+				93A0F1521D8CDD97008A43FC /* TestCaseTests.swift */,
+				93A0F1531D8CDD97008A43FC /* TextReplacerTests.swift */,
+				93A86C6A1D57559E00512B43 /* TreeNodeTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		93D1E60E1D56BCEF007B2A1C = {
 			isa = PBXGroup;
 			children = (
+				930D86561D56F9A200C996AE /* Dependencies */,
 				93D1E6191D56BCEF007B2A1C /* DEFCONF4 */,
 				93D1E62E1D56BCEF007B2A1C /* DEFCONF4Tests */,
 				93D1E6391D56BCEF007B2A1C /* DEFCONF4UITests */,
@@ -103,6 +212,9 @@
 				93D1E6211D56BCEF007B2A1C /* Assets.xcassets */,
 				93D1E6231D56BCEF007B2A1C /* MainMenu.xib */,
 				93D1E6261D56BCEF007B2A1C /* Info.plist */,
+				93A86C721D59F82200512B43 /* TargetListView.xib */,
+				93A86C751D59F84500512B43 /* TargetListViewController.swift */,
+				93A0F15E1D8CE0C2008A43FC /* TreeNode.swift */,
 			);
 			path = DEFCONF4;
 			sourceTree = "<group>";
@@ -112,6 +224,7 @@
 			children = (
 				93D1E62F1D56BCEF007B2A1C /* DEFCONF4Tests.swift */,
 				93D1E6311D56BCEF007B2A1C /* Info.plist */,
+				93A0F1601D8CE0DC008A43FC /* TreeNodeTests.swift */,
 			);
 			path = DEFCONF4Tests;
 			sourceTree = "<group>";
@@ -236,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93D1E6221D56BCEF007B2A1C /* Assets.xcassets in Resources */,
+				93A86C741D59F82200512B43 /* TargetListView.xib in Resources */,
 				93D1E6201D56BCEF007B2A1C /* Document.xib in Resources */,
 				93D1E6251D56BCEF007B2A1C /* MainMenu.xib in Resources */,
 			);
@@ -262,8 +376,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A0F14D1D8CDD8B008A43FC /* TextReplacer.swift in Sources */,
+				930D86621D56F9AE00C996AE /* Mason.swift in Sources */,
 				93D1E61D1D56BCEF007B2A1C /* Document.swift in Sources */,
+				930D86631D56F9AE00C996AE /* TaskWrapper.swift in Sources */,
 				93D1E61B1D56BCEF007B2A1C /* AppDelegate.swift in Sources */,
+				930D86611D56F9AE00C996AE /* Keychain.swift in Sources */,
+				93A0F15F1D8CE0C2008A43FC /* TreeNode.swift in Sources */,
+				93A0F14C1D8CDD8B008A43FC /* ObserverRegistry.swift in Sources */,
+				93A86C671D572F5A00512B43 /* TreeNode.swift in Sources */,
+				93A86C761D59F84500512B43 /* TargetListViewController.swift in Sources */,
+				93A86C7A1D5A0FC200512B43 /* ColoredView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +394,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A0F15B1D8CDDA0008A43FC /* TextReplacer.swift in Sources */,
+				93A86C681D572F5A00512B43 /* TreeNode.swift in Sources */,
+				93A0F1541D8CDD97008A43FC /* Bug3293160Tests.swift in Sources */,
+				93A0F1581D8CDD97008A43FC /* TestCaseTests.swift in Sources */,
+				930D866B1D56F9B200C996AE /* TaskWrapperTests.swift in Sources */,
+				930D86661D56F9AF00C996AE /* TaskWrapper.swift in Sources */,
+				930D86651D56F9AF00C996AE /* Mason.swift in Sources */,
+				93A0F1611D8CE0DC008A43FC /* TreeNodeTests.swift in Sources */,
+				93A86C771D59F84500512B43 /* TargetListViewController.swift in Sources */,
 				93D1E6301D56BCEF007B2A1C /* DEFCONF4Tests.swift in Sources */,
+				93A0F1591D8CDD97008A43FC /* TextReplacerTests.swift in Sources */,
+				930D86641D56F9AF00C996AE /* Keychain.swift in Sources */,
+				93A0F1561D8CDD97008A43FC /* ObserverRegistryTests.swift in Sources */,
+				93A0F1571D8CDD97008A43FC /* TestCase.swift in Sources */,
+				93A0F1551D8CDD97008A43FC /* MasonTests.swift in Sources */,
+				930D866A1D56F9B200C996AE /* KeychainTests.swift in Sources */,
+				93A0F15A1D8CDDA0008A43FC /* ObserverRegistry.swift in Sources */,
+				93A86C6E1D5755AD00512B43 /* TreeNodeTests.swift in Sources */,
+				93A86C7B1D5A0FC200512B43 /* ColoredView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +420,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A0F15D1D8CDDA1008A43FC /* TextReplacer.swift in Sources */,
+				930D86691D56F9AF00C996AE /* TaskWrapper.swift in Sources */,
+				93A86C781D59F84500512B43 /* TargetListViewController.swift in Sources */,
+				93A0F15C1D8CDDA1008A43FC /* ObserverRegistry.swift in Sources */,
+				930D86681D56F9AF00C996AE /* Mason.swift in Sources */,
+				93A86C7C1D5A0FC200512B43 /* ColoredView.swift in Sources */,
 				93D1E63B1D56BCEF007B2A1C /* DEFCONF4UITests.swift in Sources */,
+				93A86C691D572F5A00512B43 /* TreeNode.swift in Sources */,
+				930D86671D56F9AF00C996AE /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +448,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		93A86C721D59F82200512B43 /* TargetListView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93A86C731D59F82200512B43 /* Base */,
+			);
+			name = TargetListView.xib;
+			sourceTree = "<group>";
+		};
 		93D1E61E1D56BCEF007B2A1C /* Document.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -513,6 +670,7 @@
 				93D1E6411D56BCEF007B2A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93D1E6421D56BCEF007B2A1C /* Build configuration list for PBXNativeTarget "DEFCONF4Tests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +679,7 @@
 				93D1E6441D56BCEF007B2A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93D1E6451D56BCEF007B2A1C /* Build configuration list for PBXNativeTarget "DEFCONF4UITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +688,7 @@
 				93D1E6471D56BCEF007B2A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

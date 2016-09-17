@@ -10,8 +10,12 @@
 	<true/>
 	<key>dbVersion</key>
 	<string>7</string>
+	<key>defaultPage</key>
+	<string>Index</string>
+	<key>defaultUUID</key>
+	<string>279d24c6-d691-4398-ab2e-4536c8450b5e</string>
 	<key>expectedPageCount</key>
-	<integer>5</integer>
+	<integer>7</integer>
 	<key>localWebAccess</key>
 	<false/>
 	<key>openWindows</key>
@@ -29,15 +33,15 @@
 					<key>rulerVisible</key>
 					<false/>
 					<key>selectedRange</key>
-					<string>{1810, 0}</string>
+					<string>{2579, 0}</string>
 					<key>visibleGlyphs</key>
-					<string>{0, 1910}</string>
+					<string>{0, 2582}</string>
 					<key>zoomScale</key>
 					<real>1</real>
 				</dict>
 			</array>
 			<key>windowFrame</key>
-			<string>{{538, 190}, {632, 704}}</string>
+			<string>{{1079, 4}, {804, 1014}}</string>
 		</dict>
 	</array>
 	<key>skIndexVersion</key>

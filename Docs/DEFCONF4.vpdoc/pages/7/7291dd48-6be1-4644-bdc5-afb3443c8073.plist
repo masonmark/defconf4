@@ -19,19 +19,19 @@
 	<key>categories</key>
 	<array/>
 	<key>createdDate</key>
-	<date>2016-08-07T01:21:20Z</date>
+	<date>2016-08-11T02:26:19Z</date>
 	<key>dataHash</key>
-	<string>f9474fd30f7478dc2f7b6454e1ce7f1e24170c70</string>
+	<string>5df2e3138c64daec3421463b226cf1dcdf6e70c9</string>
 	<key>displayName</key>
-	<string>Index</string>
+	<string>Xcode custom file templates</string>
 	<key>encrypted</key>
 	<string>No</string>
 	<key>key</key>
-	<string>index</string>
+	<string>xcode custom file templates</string>
 	<key>metaValues</key>
 	<dict/>
 	<key>modifiedDate</key>
-	<date>2016-08-11T02:33:16Z</date>
+	<date>2016-08-11T02:32:33Z</date>
 	<key>shouldHighlightLinks</key>
 	<string>Yes</string>
 	<key>skipOnExport</key>
@@ -39,7 +39,7 @@
 	<key>uti</key>
 	<string>com.apple.rtfd</string>
 	<key>uuid</key>
-	<string>279d24c6-d691-4398-ab2e-4536c8450b5e</string>
+	<string>7291dd48-6be1-4644-bdc5-afb3443c8073</string>
 	<key>version</key>
 	<integer>1</integer>
 </dict>

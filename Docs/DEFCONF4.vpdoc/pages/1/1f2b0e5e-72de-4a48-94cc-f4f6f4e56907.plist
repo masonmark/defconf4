@@ -19,19 +19,19 @@
 	<key>categories</key>
 	<array/>
 	<key>createdDate</key>
-	<date>2016-08-07T01:21:20Z</date>
+	<date>2016-08-11T02:32:05Z</date>
 	<key>dataHash</key>
-	<string>f9474fd30f7478dc2f7b6454e1ce7f1e24170c70</string>
+	<string>6fbb7d0bdfd322dd292fdfaf2957a1bbe7ca75a0</string>
 	<key>displayName</key>
-	<string>Index</string>
+	<string>Xcode color themes</string>
 	<key>encrypted</key>
 	<string>No</string>
 	<key>key</key>
-	<string>index</string>
+	<string>xcode color themes</string>
 	<key>metaValues</key>
 	<dict/>
 	<key>modifiedDate</key>
-	<date>2016-08-11T02:33:16Z</date>
+	<date>2016-08-11T02:32:18Z</date>
 	<key>shouldHighlightLinks</key>
 	<string>Yes</string>
 	<key>skipOnExport</key>
@@ -39,7 +39,7 @@
 	<key>uti</key>
 	<string>com.apple.rtfd</string>
 	<key>uuid</key>
-	<string>279d24c6-d691-4398-ab2e-4536c8450b5e</string>
+	<string>1f2b0e5e-72de-4a48-94cc-f4f6f4e56907</string>
 	<key>version</key>
 	<integer>1</integer>
 </dict>

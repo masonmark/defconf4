@@ -3,6 +3,8 @@
 import Cocoa
 
 class Document: NSDocument {
+    
+    @IBOutlet var missionListViewEnclosure: NSView!
 
     override init() {
         super.init()
@@ -17,6 +19,20 @@ class Document: NSDocument {
         // Returns the nib file name of the document
         // If you need to use a subclass of NSWindowController or if your document supports multiple NSWindowControllers, you should remove this property and override -makeWindowControllers instead.
         return "Document"
+    }
+    
+    override func windowControllerDidLoadNib(_ windowController: NSWindowController) {
+
+        if let vc = TargetListViewController(nibName: "TargetListView", bundle: nil) {
+            vc.view.frame = missionListViewEnclosure.frame
+            vc.view.autoresizingMask = missionListViewEnclosure.autoresizingMask
+              // one of the major advntages of autoresizing mask vs contraints... doing that with constraints is an absurd amount of code.
+            
+            missionListViewEnclosure.superview?.replaceSubview(missionListViewEnclosure, with: vc.view)
+        } else {
+            fatalError("wtf bro fhjkadfsjkdsh3678hiaf")
+        }
+        
     }
 
     override func data(ofType typeName: String) throws -> Data {

@@ -9,7 +9,7 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EB24F659-07C8-4CFE-B535-A6742FEC4582",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "9FE06A1C2752254E66FFB11DB106F8DF1513E854" : "defconf4\/DEFCONF4\/Dependencies\/Mason.swift\/",
+    "9FE06A1C2752254E66FFB11DB106F8DF1513E854" : "Mason.swift\/",
     "9314549DF9C5D4C26EFE4A2A9E481820DBF45F4D" : "defconf4\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "DEFCONF4",
